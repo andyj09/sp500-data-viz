@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/d3"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center-align text-title">
+      S&P 500 Growth since 2017
+    </div>
+    <aside class="csstransforms">
+      <h3>Return %</h3>
+    </aside>
+      <svg width="1920" height="1080"></svg>
+    <br>
+    <div class="center-align">
+      <!-- <div class="slidecontainer"> -->
+        <input type="range" class="slider slidecontainer" id="myRange" disabled>
+        <p class="quarter-label">Value: <span id="demo" class="quarter-label"></span></p>
+      <!-- </div> -->
+      <a onclick="goBack(true)" class="control-btn">Back</a>
+      <a onclick="goForward(true)" class="control-btn">Forward</a>
+      <a onclick="playpause()" class="control-btn">Play/Pause</a>
+    </div>
+    <script src="d3swarm.js"></script>
+  </body>
+</html>
