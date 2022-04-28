@@ -9,7 +9,7 @@ text {
 
 .text-title {
     font-size: 2.7em;
-    fill: #8E8883;
+    color: #8E8883;
 }
 
 .y-axis .tick text {
@@ -18,7 +18,7 @@ fill: #635F5D;
 }
 
 .x-axis .tick text {
-    font-size: 1.4em;
+    font-size: 2.19em;
     fill: #635F5D;
 }
 
@@ -27,20 +27,32 @@ stroke: #C0C0BB;
 }
 
 .axis-label {
-    font-size: 2.25em;
+    font-size: 3.25em;
     fill: #8E8883;
 }
 
+.legend-label {
+    font-size: 1.25em;
+    fill: #8E8883;
+}
+
+.legend-bubble-label {
+    font-size: 1.0em;
+    fill: #8E8883;
+}
+
+
 .quarter-label {
     font-size: 1.50em;
+    color: #8E8883;
     /* fill: #8E8883; */
 }
 
 div.tooltip {
     position: absolute;
-    text-align: center;
-    width: 80px;
-    height: 48px;
+    text-align: left;
+    width: 180px;
+    height: 60px;
     padding: 2px;
     font: 20px sans-serif;
     background: lightsteelblue;
