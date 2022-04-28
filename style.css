@@ -52,7 +52,7 @@ div.tooltip {
     position: absolute;
     text-align: left;
     width: 180px;
-    height: 60px;
+    height: 70px;
     padding: 2px;
     font: 20px sans-serif;
     background: lightsteelblue;
@@ -99,7 +99,7 @@ a.control-btn {
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    color:#FFFFFF;
+    color: black;
     background-color:#4eb5f1;
     text-align:center;
     transition: all 0.2s;
