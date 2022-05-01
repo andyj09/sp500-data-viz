@@ -150,3 +150,114 @@ aside {
     transform-origin: 0 0;
     transform: rotate(-90deg);
   }
+
+@font-face {
+    font-display: swap;
+    font-family: CircularStd-Book;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Circular Book"), url(https://www.bankrate.com/static/fonts/CircularStd-Book.woff2) format("woff2"), url(https://www.bankrate.com/static/fonts/CircularStd-Book.woff) format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-family: CircularStd-Bold;
+    font-style: normal;
+    font-weight: 600;
+    src: local("Circular Bold"), url(https://www.bankrate.com/static/fonts/CircularStd-Bold.woff2) format("woff2"), url(https://www.bankrate.com/static/fonts/CircularStd-Bold.woff) format("woff");
+}
+.article {
+    border-top-left-radius: 0.88889rem;
+    border-top-right-radius: 0.88889rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.77778rem;
+    max-width: 72rem;
+    /* max-width: 47.40741rem; */
+    padding: 1.33333rem;
+    position: relative;
+    z-index: 5;
+}
+
+p {
+    font-family: CircularStd-Bold, Arial, sans-serif;
+    color: #515260;
+    font-size: 1.125em;
+    line-height: 1.6;
+}
+
+code {
+    /* padding: 2px 4px; */
+    color: rgb(68, 68, 68);
+    background: rgb(221, 221, 221);
+    border-radius: 4px;
+}
+
+.site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: 30px 0;
+    display: block;
+}
+
+.wrapper {
+    max-width: calc(1000px - (30px));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.social-links {
+    font-size: 0.9375rem;
+    color: #828282;
+}
+
+.social-media-list {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.social-media-list li {
+    float: left;
+    margin: 5px 10px 5px 0;
+}
+.social-media-list li a {
+    display: block;
+    padding: 7.5px;
+    /* border: 1px solid #e8e8e8; */
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.social-media-list .svg-icon, .svg-icon {
+    width: 25px !important;
+    height: 23px !important;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    padding: 5px 3px 2px 5px;
+    vertical-align: text-bottom;
+}
+
+.grey {
+    color: #828282;
+}
+
+ul, ol {
+    padding-left: 0;
+}
+
+.mc-code {
+    display: block;
+    margin: auto;
+    text-align: center;
+}

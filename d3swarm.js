@@ -128,7 +128,7 @@ const render = () => {
         .attr('fill', 'black')
       .merge(xAxisG.select('.axis-label'))
         .attr('x', innerWidth / 2)
-        .text('Sectors');
+        .text('Sector');
 
     // Format axis tick labels
     function wrap(text, width) {
